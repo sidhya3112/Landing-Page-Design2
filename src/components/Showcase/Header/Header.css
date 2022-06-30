@@ -1,0 +1,80 @@
+.header{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-component-list{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text{
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header-button{
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+
+
+/* Laptop Screen = 1440px */
+@media screen and (max-width: 1440px){
+    .header{
+        padding-left: 64px;
+        padding-right: 64px;
+        padding-top: 32px;
+    }
+
+    .logo{
+        width: 151px;
+        height: 48px;
+    }
+
+    .logo-img{
+        width: 48px;
+    }
+    
+    .logo-text{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .navbar-buttons{
+        width: 351px;
+    }
+    
+    .header-button{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+    }
+
+    .login-signup-buttons{
+        width: 149px;
+    }
+
+    .signup-button{
+        border: 1.8px solid white;
+        border-radius: 100px;
+        width: 86px;
+        height: 30px;
+    }
+}
+

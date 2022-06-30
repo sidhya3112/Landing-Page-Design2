@@ -1,0 +1,18 @@
+.rectangle1{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: radial-gradient(50% 50% at 50% 50%, #5F72BE 0%, #9921E8 100%);
+}
+
+
+/* Laptop Screen = 1440px */
+@media screen and (max-width: 1440px) {
+    .rectangle1{
+        height: 704px;
+    }
+}
+
+
+
