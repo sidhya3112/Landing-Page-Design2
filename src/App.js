@@ -2,6 +2,7 @@ import './App.css';
 import CourseInfo from './components/CourseInfo/CourseInfo';
 import Features from './components/Features/Features';
 import Showcase from './components/Showcase/Showcase';
+import Testimonials from './components/Testimonials/Testimonials';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <Showcase />
     <CourseInfo/>
     <Features/>
+    <Testimonials/>
     </>
   );
 }
