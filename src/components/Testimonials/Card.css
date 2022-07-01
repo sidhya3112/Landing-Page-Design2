@@ -33,6 +33,10 @@
     color: #9921E8;
 }
 
+.card-pics{
+    display: flex;
+    align-items: center;
+}
 
 
 /* Laptop Screen = 1440px */
@@ -42,10 +46,20 @@
         height: 332px;
     }
 
+    .card-pics{
+        gap: 32px;
+    }
+
     .card-img{
         width: 125px;
         height: 125px;
         border-radius: 125px;
+    }
+
+    .person{
+        width: 75px;
+        height: 75px;
+        border-radius: 75px;
     }
 
     .card-des{
