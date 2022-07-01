@@ -1,0 +1,165 @@
+.features{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-list{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+
+.features-list-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.features-head{
+    font-style: normal;
+    color: #9921E8;
+}
+
+.features-des{
+    font-style: normal;
+    color: #0D0D0D;
+
+}
+
+.enroll-button-2{
+    color: #5F72BE;
+}
+
+.features-list-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.features-list-2-1{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.features-list-2-2{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-icon{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.two-imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    position: absolute;
+}
+
+
+.feature-text{
+    font-style: normal;
+}
+
+.feature-text-1{
+    color: #FFAD3B;
+}
+
+.feature-text-2{
+   color: #2D81F7;
+}
+
+.feature-text-3{
+    color: #FE5702;
+}
+
+.feature-text-4{
+    color: #EB5757;
+}
+
+.feature-text-5{
+    color: #08BD80;
+}
+
+
+
+
+
+/* Laptop Screen = 1440px */
+@media screen and (max-width: 1440px){
+    .features{
+        top: 1348px;
+        left: 118px;
+        right: 118px;
+    }
+
+    .features-list-1{
+        height: 190px;
+    }
+
+    .features-head{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        letter-spacing: 0.0188em;
+        width: 302px;
+    }
+
+    .features-des{
+        width: 290px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .enroll-button-2{
+        border: 1.8px solid #5F72BE;
+    }
+
+    .features-list-2-1{
+        height: 728px;
+    }
+
+    .features-list-2-2{
+        gap: 64px;
+    }
+
+    .feature-icon{
+        width: 280px;
+        height: 200px;
+    }
+
+    .feature-text{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .bg-icon{
+        width: 200px;
+        height: 200px;
+    }
+}

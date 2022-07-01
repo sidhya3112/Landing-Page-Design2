@@ -45,14 +45,16 @@
     color: #FFFFFF;
 }
 
-.enroll-button{
+.button-details{
     margin: 0px;
     padding: 0px;
     font-style: normal;
-    color: #FFFFFF;
     background: transparent;
-    border: none;
     text-transform: uppercase;
+}
+
+.enroll-button{
+    color: #FFFFFF;
 }
 
 .list-1-2{
@@ -143,14 +145,17 @@
         letter-spacing: 0.0188em;
     }
 
-    .enroll-button{
+    .button-details{
         font-weight: 700;
         font-size: 14px;
         line-height: 17px;
-        border: 1.8px solid #FFFFFF;
         border-radius: 100px;
         height: 32px;
         width: 128px;
+    }
+
+    .enroll-button{
+        border: 1.8px solid #FFFFFF;
     }
 
     .list-1-2{

@@ -1,0 +1,38 @@
+.course-info{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c-text{
+    font-style: normal;
+    color: #0D0D0D;
+}
+
+
+
+/* Laptop Screen = 1440px */
+@media screen and (max-width: 1440px){
+    .course-info{
+        top: 800px;
+        padding-left: 64px;
+        height: 56px;
+    }
+
+    .c-text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .c-head{
+        font-weight: 700;
+    }
+
+    .c-des{
+        font-weight: 400;
+    }
+}

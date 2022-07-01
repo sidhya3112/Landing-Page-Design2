@@ -18,7 +18,7 @@ const ShowcaseContent = () => {
                                 <h1 className='certification-text'>#Most trusted certification by the industry</h1>
                             </li>
                             <li className='content-heading'>Unleash Your SCRUM Skills, Grab More Attention To Résumé</li>
-                            <li><button className='enroll-button'>Enroll Now</button></li>
+                            <li><button className='enroll-button button-details'>Enroll Now</button></li>
                         </ul>
                     </li>
                     <li>
