@@ -13,6 +13,16 @@
     color: #0D0D0D;
 }
 
+.course-boxes{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+
 
 
 /* Laptop Screen = 1440px */
@@ -34,5 +44,16 @@
 
     .c-des{
         font-weight: 400;
+    }
+
+    .course-boxes{
+        top: 919px;
+        padding-left: 64px;
+        gap: 32px;
+    }
+
+    .arrow{
+        width: 12px;
+        height: 23px;
     }
 }

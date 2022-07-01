@@ -1,0 +1,90 @@
+.course-box{
+    background: rgba(217, 217, 217, 0.25);
+    box-shadow: 0px 35px 80px rgba(13, 13, 13, 0.12);
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.course-title-bookmark{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+}
+
+.course-title{
+    font-style: normal;
+    color: #0D0D0D;
+}
+
+.course-author{
+    font-style: normal;
+    color: #0D0D0D;
+}
+
+.course-star-rating{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating-number{
+    font-style: normal;
+    color: #0D0D0D;
+}
+
+
+
+/* Laptop Screen = 1440px */
+@media screen and (max-width: 1440px){
+    .course-box{
+        width: 282px;
+        height: 324px;
+        border-radius: 12px;
+    }
+
+    .course-img{
+        height: 142px;
+    }
+
+    .course-title-bookmark{
+        padding-top: 12px;
+    }
+
+    .course-title{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        padding-left: 27px;
+    }
+
+    .course-bookmark{
+        width: 12px;
+        height: 16px;
+        padding-right: 18px;
+    }
+
+    .course-author{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        padding-top: 12px;
+        padding-left: 27px;
+    }
+
+    .course-star-rating{
+        padding-left: 27px;
+        width: 130px;
+        padding-top: 12px;
+    }
+
+    .rating-number{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
