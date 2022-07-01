@@ -4,6 +4,7 @@ import img1 from '../../../images/Ellipse-1.png';
 import img2 from '../../../images/Ellipse-2.png';
 import img3 from '../../../images/Ellipse-3.png';
 import img4 from '../../../images/Ellipse-4.png';
+import CountDownBox from './CountDownBox';
 
 const ShowcaseContent = () => {
   return (
@@ -25,7 +26,28 @@ const ShowcaseContent = () => {
                         <ul className='list-1-2 list-1-items'>
                             <li className='offer'>10% OFF on all courses* | Offer Valid For</li>
                             <li><div className='line-break'></div></li>
-                            <li className='count-down'>Countdown</li>
+                            <li>
+                                <ul className='count-down'>
+                                    <li>
+                                        <CountDownBox
+                                        time='02'
+                                        unit='Hrs'
+                                        />
+                                    </li>
+                                    <li>
+                                        <CountDownBox
+                                        time='58'
+                                        unit='Mins'
+                                        />
+                                    </li>
+                                    <li>
+                                        <CountDownBox
+                                        time='42'
+                                        unit='Secs'
+                                        />
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
                 </ul>

@@ -1,0 +1,41 @@
+.countdown-box{
+    padding: 0px;
+    margin: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.time{
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.unit{
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/* Laptop Screen = 1440px */
+@media screen and (max-width: 1440px){
+    .countdown-box{
+        width: 88px;
+        height: 88px;
+        border-radius: 12px;
+    }
+
+    .time{
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 66px;
+    }
+
+    .unit{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

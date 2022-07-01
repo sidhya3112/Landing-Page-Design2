@@ -72,7 +72,11 @@
 }
 
 .count-down{
-
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .list-2{
@@ -172,6 +176,10 @@
         border: 1px solid white;
         width: 32px;
         border-radius: 100px;
+    }
+
+    .count-down{
+        width: 328px;
     }
     
     .img-1{
