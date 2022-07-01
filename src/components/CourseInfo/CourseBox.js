@@ -20,11 +20,11 @@ const CourseBox = (props) => {
                 <ul className='course-star-rating'>
                     <li className='rating-number'>{props.rating}</li>
 
-                    <li> <Rating  ratingValue={useState(props.rating)}
+                    <li> <Rating  initialValue={props.rating}
                      fillColor= '#5F72BE' 
                      emptyColor='white'
                      size={20}
-                     allowHalfIcon={true}
+                     readonly={true}
                      /> 
                     </li>
                 </ul>
