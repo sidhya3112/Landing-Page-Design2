@@ -1,0 +1,83 @@
+.email-block{
+    position: absolute;
+    background: #5F72BE;
+    display: flex;
+    align-items: center;
+}
+
+.email-block-content-wrapper{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.email-block-content{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-text{
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.contact-us-button{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background: #2D81F7;
+    font-style: normal;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+
+/* Laptop Screen = 1440px */
+@media screen and (max-width: 1440px){
+    .email-block{
+        top: 2791px;
+        right: 64px;
+        left: 64px;
+        height: 120px;
+        border-radius: 12px;
+    }
+
+    .email-block-content-wrapper{
+        padding-left: 56px;
+        padding-right: 50px;
+    }
+
+    .email-block-content{
+        gap: 12px;
+    }
+
+    .email-us{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .connect-with-us{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .contact-us-button{
+        width: 328px;
+        height: 52px;
+        border-radius: 12px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.028em;
+    }
+}
