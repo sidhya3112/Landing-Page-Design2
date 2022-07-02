@@ -1,6 +1,6 @@
 # Landing Page UI Design 2
 
-*This UI design is purely made with ReactJS. 
+*This UI design is purely made with ReactJS.*
 
  ## *Tech-Stack Used:*
  * ReactJS - For Frontend
