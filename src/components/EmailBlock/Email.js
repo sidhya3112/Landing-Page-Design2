@@ -11,11 +11,11 @@ const Email = () => {
                     <li className='connect-with-us email-text'>Connect with us in case of queries, complaints or feedbacks...</li>
                 </ul>
             </li>
-            <li>
+            
                 <button className='contact-us-button'>
                     Contact Us
                 </button>
-            </li>
+            
         </ul>
     </div>
   )
