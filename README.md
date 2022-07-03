@@ -1,12 +1,15 @@
 # Landing Page UI Design 2
 
-*This UI design is purely made with ReactJS.*
+*This UI design is purely made with ReactJS. It is fully responsive for all big screen and medium screen devices.*
 
  ## *Tech-Stack Used:*
  * ReactJS - For Frontend
  
+ ## *Link to the Website:*
+ https://effulgent-douhua-f4e6ef.netlify.app
+ 
  ## *Future Goals:*
- * Currently, works perfect for window-size: 1440px. But will make the page fully-responsive in future.
+ * Currently, fully responsive for all big screen and medium screen devices, would modify the design a little in future to make it responsive for small screen devices like mobile phones as well. 
 
 ## *Video:*
 https://user-images.githubusercontent.com/64465190/176979703-3d7013de-1e1d-416d-8cfd-b231ea0cf2f8.mp4
