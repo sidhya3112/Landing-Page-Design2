@@ -178,6 +178,12 @@ code {
   }
 }
 
+@media screen and (max-width: 450px){
+  :root{
+      --screen: 0.3125px
+  }
+}
+
 @media screen and (max-width: 400px){
   :root{
       --screen: 0.277px
