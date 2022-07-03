@@ -11,25 +11,25 @@ const Header = () => {
         </ul>
 
         <ul className='navbar-buttons header-component-list'>
-            <li>
+            <li className='navlist'>
                 <button className='nav-button header-button'>Home</button>
             </li>
-            <li>
+            <li className='navlist'>
                 <button className='nav-button header-button'>About</button>
             </li>
-            <li>
+            <li className='navlist'>
                 <button className='nav-button header-button'>Courses</button>
             </li>
-            <li>
+            <li className='navlist'>
                 <button className='nav-button header-button'>Blogs</button>
             </li>
         </ul>
 
         <ul className='login-signup-buttons header-component-list'>
-            <li>
+            <li className='navlist'>
                 <button className='login-button header-button'>Login</button>
             </li>
-            <li>
+            <li className='navlist'>
                 <button className='signup-button header-button'>Sign Up</button>
             </li>
         </ul>

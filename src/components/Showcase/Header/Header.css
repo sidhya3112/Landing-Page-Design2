@@ -31,6 +31,10 @@
     text-transform: uppercase;
 }
 
+.navlist{
+    display: flex;
+    align-items: center;
+}
 
 
 /* Media Queries */
@@ -64,6 +68,10 @@
     font-size: calc(14*var(--screen));
     font-weight: 700;
     line-height: calc(17*var(--screen));
+}
+
+.navlist{
+    height: calc(17*var(--screen));
 }
 
 .login-signup-buttons{
