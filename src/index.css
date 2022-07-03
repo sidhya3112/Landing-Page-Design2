@@ -190,15 +190,33 @@ code {
   }
 }
 
+@media screen and (max-width: 350px){
+  :root{
+      --screen: 0.243px
+  }
+}
+
 @media screen and (max-width: 300px){
   :root{
       --screen: 0.208px
   }
 }
 
+@media screen and (max-width: 250px){
+  :root{
+      --screen: 0.173px
+  }
+}
+
 @media screen and (max-width: 200px){
   :root{
       --screen: 0.138px
+  }
+}
+
+@media screen and (max-width: 150px){
+  :root{
+      --screen: 0.104px
   }
 }
 
