@@ -4,6 +4,9 @@
     padding: 0px;
     margin: 0px;
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .course-title-bookmark{
@@ -32,59 +35,68 @@
     justify-content: space-between;
 }
 
-.rating-number{
+.rating{
     font-style: normal;
     color: #0D0D0D;
+    margin: 0px;
+}
+
+.enroll-button-in-card{
+    display: flex;
 }
 
 
+/* Media Queries */
 
-/* Laptop Screen = 1440px */
-@media screen and (max-width: 1440px){
-    .course-box{
-        width: 282px;
-        height: 324px;
-        border-radius: 12px;
-    }
-
-    .course-img{
-        height: 142px;
-    }
-
-    .course-title-bookmark{
-        padding-top: 12px;
-    }
-
-    .course-title{
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-        padding-left: 27px;
-    }
-
-    .course-bookmark{
-        width: 12px;
-        height: 16px;
-        padding-right: 18px;
-    }
-
-    .course-author{
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-        padding-top: 12px;
-        padding-left: 27px;
-    }
-
-    .course-star-rating{
-        padding-left: 27px;
-        width: 130px;
-        padding-top: 12px;
-    }
-
-    .rating-number{
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-    }
+.course-box{
+    width: calc(282*var(--screen));
+    height: calc(324*var(--screen));
+    border-radius: calc(12*var(--screen));
 }
+
+.course-img{
+    height: calc(142*var(--screen));
+    width: calc(282*var(--screen));
+}
+
+.course-title-bookmark{
+    /* padding-top: calc(12*var(--screen)); */
+}
+
+.course-title{
+    font-weight: 700;
+    font-size: calc(16*var(--screen));
+    line-height: calc(19*var(--screen));
+    padding-left: calc(27*var(--screen));
+}
+
+.course-bookmark{
+    width: calc(12*var(--screen));
+    height: calc(16*var(--screen));
+    padding-right: calc(18*var(--screen));
+}
+
+.course-author{
+    font-weight: 400;
+    font-size: calc(14*var(--screen));
+    line-height: calc(17*var(--screen));
+    /* padding-top: calc(12*var(--screen)); */
+    padding-left: calc(27*var(--screen));
+}
+
+.rating{
+    font-weight: 400;
+    font-size: calc(14*var(--screen));
+    line-height: calc(17*var(--screen));
+    padding-left: calc(27*var(--screen));
+    display: flex;
+    align-items: center;
+    gap: calc(10*var(--screen));
+}
+
+.enroll-button-in-card{
+    padding-left: calc(27*var(--screen)); 
+    height: calc(32*var(--screen));;
+    /* padding-bottom: calc(10*var(--screen)); */
+}
+

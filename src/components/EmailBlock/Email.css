@@ -40,44 +40,44 @@
 
 
 
-/* Laptop Screen = 1440px */
-@media screen and (max-width: 1440px){
-    .email-block{
-        top: 2791px;
-        right: 64px;
-        left: 64px;
-        height: 120px;
-        border-radius: 12px;
-    }
+/* Media Queries */
 
-    .email-block-content-wrapper{
-        padding-left: 56px;
-        padding-right: 50px;
-    }
-
-    .email-block-content{
-        gap: 12px;
-    }
-
-    .email-us{
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 22px;
-    }
-
-    .connect-with-us{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-    }
-
-    .contact-us-button{
-        width: 328px;
-        height: 52px;
-        border-radius: 12px;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-        letter-spacing: 0.028em;
-    }
+.email-block{
+    top: calc(2791*var(--screen));
+    right: calc(64*var(--screen));
+    left: calc(64*var(--screen));
+    height: calc(120*var(--screen));
+    border-radius: calc(12*var(--screen));
 }
+
+.email-block-content-wrapper{
+    padding-left: calc(56*var(--screen));
+    padding-right: calc(50*var(--screen));
+}
+
+.email-block-content{
+    gap: calc(12*var(--screen));
+}
+
+.email-us{
+    font-weight: 700;
+    font-size: calc(18*var(--screen));
+    line-height: calc(22*var(--screen));
+}
+
+.connect-with-us{
+    font-weight: 400;
+    font-size: calc(16*var(--screen));
+    line-height: calc(19*var(--screen));
+}
+
+.contact-us-button{
+    width: calc(328*var(--screen));
+    height: calc(52*var(--screen));
+    border-radius: calc(12*var(--screen));
+    font-weight: 700;
+    font-size: calc(16*var(--screen));
+    line-height: calc(19*var(--screen));
+    letter-spacing: 0.028em;
+}
+

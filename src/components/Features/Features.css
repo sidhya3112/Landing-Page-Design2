@@ -108,58 +108,62 @@
 
 
 
-/* Laptop Screen = 1440px */
-@media screen and (max-width: 1440px){
-    .features{
-        top: 1348px;
-        left: 118px;
-        right: 118px;
-    }
+/* Media Queries */
 
-    .features-list-1{
-        height: 190px;
-    }
+.features{
+    top: calc(1348*var(--screen));
+    left: calc(118*var(--screen));
+    right: calc(118*var(--screen));
+}
 
-    .features-head{
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 39px;
-        letter-spacing: 0.0188em;
-        width: 302px;
-    }
+.features-list-1{
+    height: calc(190*var(--screen));
+}
 
-    .features-des{
-        width: 290px;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
-    }
+.features-head{
+    font-weight: 700;
+    font-size: calc(32*var(--screen));
+    line-height: calc(39*var(--screen));
+    letter-spacing: 0.0188em;
+    width: calc(302*var(--screen));
+}
 
-    .enroll-button-2{
-        border: 1.8px solid #5F72BE;
-    }
+.features-des{
+    width: calc(290*var(--screen));
+    font-weight: 400;
+    font-size: calc(18*var(--screen));
+    line-height: calc(22*var(--screen));
+}
 
-    .features-list-2-1{
-        height: 728px;
-    }
+.enroll-button-2{
+    border: calc(1.8*var(--screen)) solid #5F72BE;
+}
 
-    .features-list-2-2{
-        gap: 64px;
-    }
+.features-list-2-1{
+    height: calc(728*var(--screen));
+}
 
-    .feature-icon{
-        width: 280px;
-        height: 200px;
-    }
+.features-list-2-2{
+    gap: calc(64*var(--screen));
+}
 
-    .feature-text{
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-    }
+.feature-icon{
+    width: calc(280*var(--screen));
+    height: calc(200*var(--screen));
+}
 
-    .bg-icon{
-        width: 200px;
-        height: 200px;
-    }
+.feature-text{
+    font-weight: 700;
+    font-size: calc(16*var(--screen));
+    line-height: calc(19*var(--screen));
+}
+
+.bg-icon{
+    width: calc(200*var(--screen));
+    height: calc(200*var(--screen));
+}
+
+.icon{
+    width: calc(50*var(--screen));
+    height: calc(50*var(--screen));
 }

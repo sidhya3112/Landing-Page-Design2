@@ -33,48 +33,46 @@
 
 
 
-/* Laptop Screen = 1440px */
-@media screen and (max-width: 1440px){
-    .header{
-        padding-left: 64px;
-        padding-right: 64px;
-        padding-top: 32px;
-    }
+/* Media Queries */
 
-    .logo{
-        width: 151px;
-        height: 48px;
-    }
-
-    .logo-img{
-        width: 48px;
-    }
-    
-    .logo-text{
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 17px;
-    }
-    
-    .navbar-buttons{
-        width: 351px;
-    }
-    
-    .header-button{
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 17px;
-    }
-
-    .login-signup-buttons{
-        width: 149px;
-    }
-
-    .signup-button{
-        border: 1.8px solid white;
-        border-radius: 100px;
-        width: 86px;
-        height: 30px;
-    }
+.header{
+    padding-left: calc(64*var(--screen));
+    padding-right: calc(64*var(--screen));
+    padding-top: calc(32*var(--screen));
 }
 
+.logo{
+    width: calc(151*var(--screen));
+    height: calc(48*var(--screen));
+}
+
+.logo-img{
+    width: calc(48*var(--screen));
+}
+
+.logo-text{
+    font-weight: 700;
+    font-size: calc(14*var(--screen));
+    line-height: calc(17*var(--screen));
+}
+
+.navbar-buttons{
+    width: calc(351*var(--screen));
+}
+
+.header-button{
+    font-size: calc(14*var(--screen));
+    font-weight: 700;
+    line-height: calc(17*var(--screen));
+}
+
+.login-signup-buttons{
+    width: calc(149*var(--screen));
+}
+
+.signup-button{
+    border: calc(1.8*var(--screen)) solid white;
+    border-radius: calc(100*var(--screen));
+    width: calc(86*var(--screen));
+    height: calc(30*var(--screen));
+}

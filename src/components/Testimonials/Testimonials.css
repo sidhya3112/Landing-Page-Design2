@@ -35,39 +35,37 @@
 }
 
 
+/* Media Queries */
 
-
-/* Laptop Screen = 1440px */
-@media screen and (max-width: 1440px){
-    .testimonials{
-        top: 2241px;
-        left: 129px;
-        right: 101.5px;
-    }
-
-    .test-obj1{
-        gap: 64px;
-    }
-
-    .test-head{
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-    }
-
-    .line-break-2{
-        width: 435px;
-        border: 2px solid #5F72BE;
-        border-radius: 100px;
-    }
-
-    .test-obj2{
-        padding-top: 78px;
-    }
-
-    .arrows{
-        width: 11.5px;
-        height: 24.5px;
-    }
-
+.testimonials{
+    top: calc(2241*var(--screen));
+    left: calc(129*var(--screen));
+    right: calc(101.5*var(--screen));
 }
+
+.test-obj1{
+    gap: calc(64*var(--screen));
+}
+
+.test-head{
+    font-weight: 700;
+    font-size: calc(16*var(--screen));
+    line-height: calc(19*var(--screen));
+}
+
+.line-break-2{
+    width: calc(435*var(--screen));
+    border: calc(2*var(--screen)) solid #5F72BE;
+    border-radius: calc(100*var(--screen));
+}
+
+.test-obj2{
+    padding-top: calc(78*var(--screen));
+}
+
+.arrows{
+    width: calc(11.5*var(--screen));
+    height: calc(24.5*var(--screen));
+}
+
+

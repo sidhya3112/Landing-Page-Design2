@@ -4,7 +4,19 @@ import bookmark from '../../images/bookmark.png';
 import './CourseBox.css'
 
 const CourseBox = (props) => {
+    var width = window.innerWidth;
+    var screenRatio = width/1440;
+
+    window.addEventListener('resize', function () {
+        if (window.innerWidth !== width) {
+            window.location.reload(true);
+        }
+    });
     
+    console.log(screenRatio);
+    var size = 20*screenRatio;
+    console.log(size);
+
   return (
     <div>
         <ul className='course-box'>
@@ -17,19 +29,20 @@ const CourseBox = (props) => {
             </li>
             <li className='course-author'>{props.author}</li>
             <li>
-                <ul className='course-star-rating'>
-                    <li className='rating-number'>{props.rating}</li>
+                <p className='rating'>
+                   {props.rating}
 
-                    <li> <Rating  initialValue={props.rating}
+                     <Rating 
+                     initialValue={props.rating}
                      fillColor= '#5F72BE' 
                      emptyColor='white'
-                     size={20}
+                     size= {size}
                      readonly={true}
                      /> 
-                    </li>
-                </ul>
+                    
+                </p>
             </li>
-            <li style={{paddingLeft:'27px', paddingTop:'12px'}}>
+            <li className='enroll-button-in-card '>
                 <button className='enroll-button-2 button-details'>
                     Enroll Now
                 </button>

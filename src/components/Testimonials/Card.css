@@ -39,46 +39,47 @@
 }
 
 
-/* Laptop Screen = 1440px */
-@media screen and (max-width: 1440px){
-    .card{
-        width: 702px;
-        height: 332px;
-    }
+/* Media Queries */
 
-    .card-pics{
-        gap: 32px;
-    }
-
-    .card-img{
-        width: 125px;
-        height: 125px;
-        border-radius: 125px;
-    }
-
-    .person{
-        width: 75px;
-        height: 75px;
-        border-radius: 75px;
-    }
-
-    .card-des{
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
-        padding-bottom: 32px;
-    }
-
-    .card-name{
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-        padding-bottom: 9px;
-    }
-
-    .card-post{
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-    }
+.card{
+    width: calc(702*var(--screen));
+    height: calc(332*var(--screen));
 }
+
+.card-pics{
+    gap: calc(32*var(--screen));
+}
+
+.card-img{
+    width: calc(125*var(--screen));
+    height: calc(125*var(--screen));
+    border-radius: calc(125*var(--screen));
+}
+
+.person{
+    width: calc(75*var(--screen));
+    height: calc(75*var(--screen));
+    border-radius: calc(75*var(--screen));
+}
+
+.card-des{
+    font-weight: 400;
+    font-size: calc(18*var(--screen));
+    line-height: calc(22*var(--screen));
+    padding-bottom: calc(32*var(--screen));
+}
+
+.card-name{
+    font-weight: 700;
+    font-size: calc(16*var(--screen));
+    line-height: calc(19*var(--screen));
+    padding-bottom: calc(9*var(--screen));
+}
+
+.card-post{
+    font-weight: 400;
+    font-size: calc(14*var(--screen));
+    line-height: calc(17*var(--screen));
+}
+
+

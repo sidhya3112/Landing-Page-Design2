@@ -20,40 +20,42 @@
     list-style-type: none;
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: center;
 }
 
 
 
 
-/* Laptop Screen = 1440px */
-@media screen and (max-width: 1440px){
-    .course-info{
-        top: 800px;
-        padding-left: 64px;
-        height: 56px;
-    }
+/* Media Queries */
 
-    .c-text{
-        font-size: 18px;
-        line-height: 22px;
-    }
-
-    .c-head{
-        font-weight: 700;
-    }
-
-    .c-des{
-        font-weight: 400;
-    }
-
-    .course-boxes{
-        top: 919px;
-        padding-left: 64px;
-        gap: 32px;
-    }
-
-    .arrow{
-        width: 12px;
-        height: 23px;
-    }
+.course-info{
+    top: calc(800*var(--screen));
+    padding-left: calc(64*var(--screen));
+    height: calc(56*var(--screen));
 }
+
+.c-text{
+    font-size: calc(18*var(--screen));
+    line-height: calc(22*var(--screen));
+}
+
+.c-head{
+    font-weight: 700;
+}
+
+.c-des{
+    font-weight: 400;
+}
+
+.course-boxes{
+    top: calc(919*var(--screen));
+    /* padding-left: calc(64*var(--screen)); */
+    gap: calc(32*var(--screen));
+}
+
+.arrow{
+    width: calc(12*var(--screen));
+    height: calc(23*var(--screen));
+}
+

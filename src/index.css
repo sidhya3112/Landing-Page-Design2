@@ -11,3 +11,199 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+@media screen and (min-width: 3000px){
+  :root{
+      --screen: 2.28px
+  }
+}
+
+@media screen and (max-width: 3000px){
+  :root{
+      --screen: 2.08px
+  }
+}
+
+
+@media screen and (max-width: 2900px){
+  :root{
+      --screen: 2.014px
+  }
+}
+
+@media screen and (max-width: 2800px){
+  :root{
+      --screen: 1.94px
+  }
+}
+
+
+@media screen and (max-width: 2700px){
+  :root{
+      --screen: 1.875px
+  }
+}
+
+@media screen and (max-width: 2600px){
+  :root{
+      --screen: 1.8px
+  }
+}
+
+@media screen and (max-width: 2500px){
+  :root{
+      --screen: 1.736px
+  }
+}
+
+@media screen and (max-width: 2400px){
+  :root{
+      --screen: 1.67px
+  }
+}
+
+@media screen and (max-width: 2300px){
+  :root{
+      --screen: 1.6px
+  }
+}
+
+@media screen and (max-width: 2200px){
+  :root{
+      --screen: 1.527px
+  }
+}
+
+@media screen and (max-width: 2100px){
+  :root{
+      --screen: 1.458px
+  }
+}
+
+@media screen and (max-width: 2000px){
+  :root{
+      --screen: 1.388px
+  }
+}
+
+@media screen and (max-width: 1900px){
+  :root{
+      --screen: 1.32px
+  }
+}
+
+@media screen and (max-width: 1800px){
+  :root{
+      --screen: 1.25px
+  }
+}
+
+@media screen and (max-width: 1700px){
+  :root{
+      --screen: 1.18px
+  }
+}
+
+@media screen and (max-width: 1600px){
+  :root{
+      --screen: 1.111px
+  }
+}
+
+@media screen and (max-width: 1500px){
+  :root{
+      --screen: 1.041px
+  }
+}
+
+@media screen and (max-width: 1440px){
+  :root{
+      --screen: 1px
+  }
+}
+
+@media screen and (max-width: 1300px){
+  :root{
+      --screen: 0.903px
+  }
+}
+
+@media screen and (max-width: 1200px){
+  :root{
+      --screen: 0.833px
+  }
+}
+
+@media screen and (max-width: 1100px){
+  :root{
+      --screen: 0.76px
+  }
+}
+
+@media screen and (max-width: 1000px){
+  :root{
+      --screen: 0.69px
+  }
+}
+
+@media screen and (max-width: 900px){
+  :root{
+      --screen: 0.625px
+  }
+}
+
+@media screen and (max-width: 800px){
+  :root{
+      --screen: 0.55px
+  }
+}
+
+@media screen and (max-width: 700px){
+  :root{
+      --screen: 0.486px
+  }
+}
+
+@media screen and (max-width: 600px){
+  :root{
+      --screen: 0.416px
+  }
+}
+
+@media screen and (max-width: 500px){
+  :root{
+      --screen: 0.347px
+  }
+}
+
+@media screen and (max-width: 400px){
+  :root{
+      --screen: 0.277px
+  }
+}
+
+@media screen and (max-width: 300px){
+  :root{
+      --screen: 0.208px
+  }
+}
+
+@media screen and (max-width: 200px){
+  :root{
+      --screen: 0.138px
+  }
+}
+
+@media screen and (max-width: 100px){
+  :root{
+      --screen: 0.069px
+  }
+}
+
+@media screen and (max-width: 600px){
+  :root{
+      --screen: 0.416px
+  }
+}

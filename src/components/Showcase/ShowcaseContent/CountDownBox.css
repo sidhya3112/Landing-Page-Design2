@@ -19,23 +19,22 @@
     color: rgba(255, 255, 255, 0.75);
 }
 
-/* Laptop Screen = 1440px */
-@media screen and (max-width: 1440px){
-    .countdown-box{
-        width: 88px;
-        height: 88px;
-        border-radius: 12px;
-    }
+/* Media Queries */
 
-    .time{
-        font-weight: 700;
-        font-size: 54px;
-        line-height: 66px;
-    }
+.countdown-box{
+    width: calc(88*var(--screen));
+    height: calc(88*var(--screen));
+    border-radius: calc(12*var(--screen));
+}
 
-    .unit{
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 17px;
-    }
+.time{
+    font-weight: 700;
+    font-size: calc(54*var(--screen));
+    line-height: calc(66*var(--screen));
+}
+
+.unit{
+    font-weight: 700;
+    font-size: calc(14*var(--screen));
+    line-height: calc(17*var(--screen));
 }
