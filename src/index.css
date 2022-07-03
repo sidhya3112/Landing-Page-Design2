@@ -201,9 +201,3 @@ code {
       --screen: 0.069px
   }
 }
-
-@media screen and (max-width: 600px){
-  :root{
-      --screen: 0.416px
-  }
-}
