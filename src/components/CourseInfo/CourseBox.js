@@ -22,10 +22,10 @@ const CourseBox = (props) => {
         <ul className='course-box'>
             <li><img className='course-img' src={props.img} alt="" /></li>
             <li>
-                <ul className='course-title-bookmark'>
-                    <li className='course-title'>{props.title}</li>
-                    <li><img className='course-bookmark' src={bookmark} alt="" /></li>
-                </ul>
+                <div className='course-title-bookmark'>
+                    <p className='course-title'>{props.title}</p>
+                    <img className='course-bookmark' src={bookmark} alt="" />
+                </div>
             </li>
             <li className='course-author'>{props.author}</li>
             <li>

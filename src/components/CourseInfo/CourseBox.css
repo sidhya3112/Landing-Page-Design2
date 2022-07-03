@@ -68,6 +68,7 @@
     font-size: calc(16*var(--screen));
     line-height: calc(19*var(--screen));
     padding-left: calc(27*var(--screen));
+    margin: 0px;
 }
 
 .course-bookmark{
