@@ -138,6 +138,7 @@
     line-height: calc(17*var(--screen));
     letter-spacing: 0.018em;
     padding-top: calc(6.5*var(--screen));
+    padding-bottom: calc(6.5*var(--screen));
 }
 
 .content-heading{

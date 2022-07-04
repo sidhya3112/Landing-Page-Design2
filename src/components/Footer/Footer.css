@@ -130,7 +130,6 @@
     margin: 0px;
     list-style-type: none;
     display: flex;
-    gap: 8px;
 }
 
 .footer-obj2-buttons{
@@ -198,16 +197,24 @@
     gap: calc(12*var(--screen));
 }
 
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: calc(4*var(--screen));
+}
+
 .contact-info-head{
     font-weight: 400;
     font-size: calc(12*var(--screen));
     line-height: calc(16*var(--screen));
+    margin: 0px;
 }
 
 .contact-info-des{
     font-weight: 500;
     font-size: calc(16*var(--screen));
     line-height: calc(21*var(--screen));
+    margin: 0px;
 }
 
 .footer-line-break{
@@ -216,6 +223,11 @@
 
 .vertical{
     height: calc(259*var(--screen));
+    width: 0px;
+}
+
+.horizontal{
+    height: 0px;
 }
 
 .footer-obj1-right {
@@ -282,4 +294,9 @@
     font-weight: 400;
     font-size: calc(14*var(--screen));
     line-height: calc(18*var(--screen));     
+}
+
+
+.social-media-button-list{
+    gap: calc(8*var(--screen));
 }

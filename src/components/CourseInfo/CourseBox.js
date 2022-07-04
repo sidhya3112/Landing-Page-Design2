@@ -20,28 +20,28 @@ const CourseBox = (props) => {
   return (
     <div>
         <ul className='course-box'>
-            <li><img className='course-img' src={props.img} alt="" /></li>
-            <li>
-                <div className='course-title-bookmark'>
-                    <p className='course-title'>{props.title}</p>
-                    <img className='course-bookmark' src={bookmark} alt="" />
-                </div>
-            </li>
-            <li className='course-author'>{props.author}</li>
-            <li>
-                <p className='rating'>
-                   {props.rating}
+            <img className='course-img' src={props.img} alt="" />
 
-                     <Rating 
-                     initialValue={props.rating}
-                     fillColor= '#5F72BE' 
-                     emptyColor='white'
-                     size= {size}
-                     readonly={true}
-                     /> 
+            <div className='course-title-bookmark'>
+                <p className='course-title'>{props.title}</p>
+                <img className='course-bookmark' src={bookmark} alt="" />
+            </div>
+            
+            <li className='course-author'>{props.author}</li>
+            
+            <p className='rating'>
+                {props.rating}
+
+                    <Rating 
+                    initialValue={props.rating}
+                    fillColor= '#5F72BE' 
+                    emptyColor='white'
+                    size= {size}
+                    readonly={true}
+                    /> 
                     
-                </p>
-            </li>
+            </p>
+            
             <li className='enroll-button-in-card '>
                 <button className='enroll-button-2 button-details'>
                     Enroll Now

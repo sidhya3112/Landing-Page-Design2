@@ -15,87 +15,80 @@ const Features = () => {
   return (
     <div>
         <ul className='features'>
-            <li>
+            
                 <ul className='features-list-1 features-list'>
                     <li className='features-head'>Start learning with us right now! </li>
                     <li className='features-des'>Choose from 100+ online video courses with new updates</li>
-                    <li><button className='enroll-button-2 button-details'>Enroll Now</button></li>
+                    <button className='enroll-button-2 button-details'>Enroll Now</button>
                 </ul>
-            </li>
+            
 
-
-
-            <li>
                 <ul className='features-list-2 features-list '>
-                    <li>
+                    
                         <ul className='features-list-2-1'>
-                            <li>
+                            
                                 <ul className='feature-icon'>
                                     <li className='feature-text feature-text-1'>Live Exams</li>
-                                    <li>
+                                    
                                         <div className='two-imgs'>
                                             <img className='bg-icon' src={bg1} alt="" />
                                             <img className='icon' src={icon1} alt="" />
                                         </div>
-                                    </li>
+                                    
                                 </ul>
-                            </li>
+                            
 
-                            <li>
+                            
                                 <ul className='feature-icon'>
                                    <li className='feature-text feature-text-2'>Live Classes</li>
-                                   <li>
+                                   
                                         <div className='two-imgs'>
                                             <img className='bg-icon' src={bg2} alt="" />
                                             <img className='icon' src={icon4} alt="" />
                                         </div>
-                                   </li>
+                                   
                                 </ul>                    
-                            </li>
+                            
 
-                            <li>
+                            
                                 <ul className='feature-icon'>
                                     <li className='feature-text feature-text-3'>100 K+ Views</li>
-                                    <li>
+                                    
                                         <div className='two-imgs'>
                                             <img className='bg-icon' src={bg3} alt="" />
                                             <img className='icon' src={icon5} alt="" />
                                         </div>
-                                    </li>
+                                    
                                 </ul>
-                            </li>
+                            
                         </ul>
-                    </li>
+                    
 
-                    <li>
+                    
                         <ul className='features-list-2-2'>
-                            <li>
+                            
                                 <ul className='feature-icon'>
                                     <li className='feature-text feature-text-4'>1000+ Lessons</li>
-                                    <li>
+                                    
                                         <div className='two-imgs'>
                                             <img className='bg-icon' src={bg4} alt="" />
                                             <img className='icon' src={icon2} alt="" />
                                         </div>
-                                    </li>
+                                    
                                 </ul>
-                            </li>
+                            
 
-                            <li>
+                            
                                 <ul className='feature-icon'>
                                     <li className='feature-text feature-text-5'>1000+ Lessons</li>
-                                    <li>
+                                    
                                         <div className='two-imgs'>
                                             <img className='bg-icon' src={bg5} alt="" />
                                             <img className='icon' src={icon3} alt="" />
                                         </div>
-                                    </li>
                                 </ul>
-                            </li>
                         </ul>
-                    </li>
                 </ul>
-            </li>
         </ul>
     </div>
   )

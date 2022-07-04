@@ -77,7 +77,6 @@
     border-radius: calc(12*var(--screen));
     font-weight: 700;
     font-size: calc(16*var(--screen));
-    line-height: calc(19*var(--screen));
     letter-spacing: 0.028em;
 }
 

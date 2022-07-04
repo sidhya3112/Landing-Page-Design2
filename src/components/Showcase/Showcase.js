@@ -9,7 +9,6 @@ const Showcase = () => {
     <div className='rectangle1'>
         <Header/>
         <ShowcaseContent/>
-
     </div>
     
     

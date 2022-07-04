@@ -226,9 +226,21 @@ code {
   }
 }
 
+@media screen and (max-width: 175px){
+  :root{
+      --screen: 0.120px
+  }
+}
+
 @media screen and (max-width: 150px){
   :root{
       --screen: 0.104px
+  }
+}
+
+@media screen and (max-width: 120px){
+  :root{
+      --screen: 0.08px
   }
 }
 
@@ -237,3 +249,4 @@ code {
       --screen: 0.069px
   }
 }
+

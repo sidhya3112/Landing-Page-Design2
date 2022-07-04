@@ -12,19 +12,18 @@ const Footer = () => {
   return (
     <div className='footer'>
         <ul className='footer-obj1'>
-            <li>
                 <ul className='footer-obj1-left'>
                     <li className='footer-logo'>Logo</li>
                     <li className='footer-text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quam saepe, error recusandae fuga autem eos dignissimos quaerat vero ex?</li>
-                    <li>
+                    
                         <ul className='footer-contact-info'>
                             <li className='contact-details'>
                                 <div className='footer-icon-bg'>
                                   <img className='footer-icon' src={call} alt="" />
                                 </div>
                                 <ul className='contact-info'>
-                                    <li className='contact-info-head'>Have a question?</li>
-                                    <li className='contact-info-des'>310-437-2766</li>
+                                    <p className='contact-info-head'>Have a question?</p>
+                                    <p className='contact-info-des'>310-437-2766</p>
                                 </ul>
                             </li>
 
@@ -33,68 +32,58 @@ const Footer = () => {
                                   <img className='footer-icon' src={email} alt="" />
                                 </div>
                                 <ul className='contact-info'>
-                                    <li className='contact-info-head'>Contact us at</li>
-                                    <li className='contact-info-des'>unreal@outlook.com</li>
+                                    <p className='contact-info-head'>Contact us at</p>
+                                    <p className='contact-info-des'>unreal@outlook.com</p>
                                 </ul>
                             </li>
                         </ul>
-                    </li>
                 </ul>
-            </li>
-            <li>
-                <div className='footer-line-break vertical'></div>
-            </li>
-            <li>
+            
+            <div className='footer-line-break vertical'></div>
+            
                 <ul className='footer-obj1-right'>
                     <li className='newsletter'>Newsletter</li>
                     <li className='newsletter-des'>Be the first one to know about discounts, offers and events weekly in our mailbox. Unsubscribe whenever you like with one click.</li>
-                    <li>
+                    
                         <form className='footer-textfield'>
                                 <img className='textfield-img' src={email} alt="" />
                                 <input className='footer-textfield-input' type="text" placeholder="Enter your Email"/>
                                 <button className='textfield-send-btn'>Submit</button>
                         </form>
-                    </li>
+                    
                 </ul>
-            </li>
         </ul>
+
         <div className='footer-line-break horizontal'></div>
 
-
         <ul className='footer-obj2'>
-            <li>
                 <ul className='footer-obj2-list-1'>
-                    <li><button className="footer-obj2-buttons">About Us</button></li>
-                    <li><button className="footer-obj2-buttons">Jobs</button></li>
-                    <li><button className="footer-obj2-buttons">Blog</button></li>
-                    <li><button className="footer-obj2-buttons">Press</button></li>
-                    <li><button className="footer-obj2-buttons">FAQ</button></li>
-                    <li><button className="footer-obj2-buttons">Careers</button></li>
-                    <li><button className="footer-obj2-buttons">Contact</button></li>
-                    <li><button className="footer-obj2-buttons">Privacy Policy</button></li>
-                    <li><button className="footer-obj2-buttons">Sitemap</button></li>
-                    <li><button className="footer-obj2-buttons">Terms of Use</button></li>
+                    <button className="footer-obj2-buttons">About Us</button>
+                    <button className="footer-obj2-buttons">Jobs</button>
+                    <button className="footer-obj2-buttons">Blog</button>
+                    <button className="footer-obj2-buttons">Press</button>
+                    <button className="footer-obj2-buttons">FAQ</button>
+                    <button className="footer-obj2-buttons">Careers</button>
+                    <button className="footer-obj2-buttons">Contact</button>
+                    <button className="footer-obj2-buttons">Privacy Policy</button>
+                    <button className="footer-obj2-buttons">Sitemap</button>
+                    <button className="footer-obj2-buttons">Terms of Use</button>
                 </ul>
-            </li>
 
-            <li>
                 <ul className='footer-obj2-list-2'>
-                    <li>
                         <ul className="social-media-button-list">
-                            <li><button className='footer-icon-bg'><img className='footer-icon' src={facebook} alt="" /></button></li>
-                            <li><button className='footer-icon-bg'><img className='footer-icon' src={whatsapp} alt="" /></button></li>
-                            <li><button className='footer-icon-bg'><img className='footer-icon' src={dribbble} alt="" /></button></li>
-                            <li><button className='footer-icon-bg'><img className='footer-icon' src={figma} alt="" /></button></li>
-                            <li><button className='footer-icon-bg'><img className='footer-icon' src={youtube} alt="" /></button></li>
+                            <button className='footer-icon-bg'><img className='footer-icon' src={facebook} alt="" /></button>
+                            <button className='footer-icon-bg'><img className='footer-icon' src={whatsapp} alt="" /></button>
+                            <button className='footer-icon-bg'><img className='footer-icon' src={dribbble} alt="" /></button>
+                            <button className='footer-icon-bg'><img className='footer-icon' src={figma} alt="" /></button>
+                            <button className='footer-icon-bg'><img className='footer-icon' src={youtube} alt="" /></button>
                         </ul>
-                    </li>
 
                     <li className='copyright'>
                     © 2000-2021, All Rights Reserved
                     </li>
 
                 </ul>
-            </li>
         </ul>
     </div>
   )
