@@ -238,7 +238,7 @@ code {
   }
 }
 
-@media screen and (max-width: 120px){
+@media screen and (max-width: 125px){
   :root{
       --screen: 0.08px
   }
@@ -250,3 +250,14 @@ code {
   }
 }
 
+@media screen and (max-width: 75px){
+  :root{
+      --screen: 0.05px
+  }
+}
+
+@media screen and (max-width: 50px){
+  :root{
+      --screen: 0.03px
+  }
+}
