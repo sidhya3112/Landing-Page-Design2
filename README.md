@@ -12,4 +12,5 @@
 https://user-images.githubusercontent.com/64465190/176979703-3d7013de-1e1d-416d-8cfd-b231ea0cf2f8.mp4
  
 
- 
+## *Future Goals:*
+* To replace the "Courses" and "Testimonials" component with a Carousel. Currently they are just containers.
